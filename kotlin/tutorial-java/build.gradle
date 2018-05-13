@@ -1,0 +1,9 @@
+apply plugin: "java"
+
+sourceSets {
+    main { java { srcDir 'main' } }
+}
+
+dependencies {
+    compile project(":kotlin:yass")
+}
